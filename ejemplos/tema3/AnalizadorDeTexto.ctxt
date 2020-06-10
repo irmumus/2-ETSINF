@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=AnalizadorDeTexto
+comment1.params=t
+comment1.target=AnalizadorDeTexto(java.lang.String)
+comment1.text=\ construye\ un\ Analizador\ del\ Texto\ t,\ considerando\ que\ \ \ \r\n\ \ el\ separador\ de\ sus\ palabras\ es\ el\ espacio\ en\ blanco\r\n
+comment2.params=n
+comment2.target=int\ frecuenciaMayorQue(int)
+comment2.text=\ devuelve\ el\ n\u00BA\ de\ palabras\ con\ frecuencia\ de\ aparici\u00F3n\ mayor\ \ \ \r\n\ \ que\ n\ que\ aparecen\ en\ el\ texto\ tratado\ por\ un\ Analizador.\ \ \ \r\n\ \ As\u00ED,\ por\ ejemplo,\ si\ n\=0\ devuelve\ el\ n\u00FAmero\ de\ palabras\ distintas\ \ \r\n\ \ que\ aparecen\ en\ el\ texto;\ si\ n\=1\ devuelve\ el\ n\u00FAmero\ de\ palabras\ \ \r\n\ \ repetidas\ que\ tiene\ el\ texto,\ etc.\r\n
+numComments=3

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=EjerciciosRL
+comment0.text=\r\n\ class\ EjerciciosRL.\r\n\ \r\n\ @author\ FTG\r\n\ @version\ 1.0\r\n
+comment1.params=v
+comment1.target=int\ puntoCruce(int[])
+comment1.text=\ Ejercicio1\:\ Sea\ v\ un\ array\ de\ enteros\ que\ se\ ajustan\ \r\n\ \ al\ perfil\ de\ una\ curva\ continua\ y\ monotona\ creciente,\ \r\n\ \ tal\ que\:\ v[0]\ <\ 0\ &&\ v[v.length-1]\ >\ 0\r\n\ \ Existe\ una\ unica\ posici\u00F3n\ k\ de\ v,\ 0\ <\=\ k\ <\ v.length-1,\ \r\n\ \ tal\ que\:\ entre\ v[k]\ y\ v[k+1]\ la\ funcion\ vale\ 0,\ \r\n\ \ i.e.\ tal\ que\:\ v[k]\ <\=\ 0\ &&\ v[k+1]\ >\ 0\ \r\n\ \ \r\n\ \ Dise\u00F1ar\ el\ mejor\ (coste\ logaritmico)\ metodo\ recursivo\ \r\n\ \ que\ calcule\ k\r\n
+comment2.params=v\ i\ j
+comment2.target=int\ puntoCruce(int[],\ int,\ int)
+comment3.params=v
+comment3.target=int\ minimoCC(int[])
+comment3.text=\ Ejercicio2\:\ Sea\ v\ un\ array\ de\ enteros\ positivos\ \r\n\ que\ se\ ajustan\ al\ perfil\ de\ una\ curva\ concava,\ \r\n\ \ i.e.\ existe\ una\ unica\ posici\u00F3n\ k\ de\ v,\ \r\n\ \ 0\ <\=\ k\ <v.length,\ tal\ que\:\r\n\ \ para\ todo\ j\ \:\ 0\ <\=\ j\ <\ k\ \ \ \ \ \ \ \:\ v[j]\ >\ v[j+1]\ \ &&\ \ \r\n\ \ para\ todo\ j\ \:\ k\ <\ j\ <\ v.length\ \:\ v[j-1]\ <\ v[j]\r\n\ \ \r\n\ \ Dise\u00F1ar\ el\ mejor\ (coste\ logaritmico)\ metodo\ \r\n\ \ recursivo\ que\ calcule\ k\r\n
+comment4.params=v\ i\ j
+comment4.target=int\ minimoCC(int[],\ int,\ int)
+comment5.params=v
+comment5.target=int\ valYposIguales(int[])
+comment5.text=\ Ejercicio3\:\ Busqueda\ de\ la\ componente\ de\ un\ \r\n\ array\ con\ valor\ igual\ a\ posicion.\ \r\n\ \r\n\ \ Dise\u00F1ar\ un\ metodo\ recursivo\ que,\ con\ el\ menor\ \r\n\ \ coste\ posible,\ \r\n\ \ determine\ si\ un\ array\ v\ de\ enteros,\ \r\n\ \ ordenado\ ascendentemente\ y\ sin\ elementos\ repetidos,\ \r\n\ \ contiene\ alguna\ componente\ cuyo\ valor\ es\ igual\ a\ \r\n\ \ la\ posicion\ que\ ocupa.\ \r\n\ \ Si\ existe\ tal\ componente\ el\ metodo\ devuelve\ su\ \r\n\ \ posicion,\ y\ sino\ -1.\ \ \ \ \r\n
+comment6.params=v\ i\ j
+comment6.target=int\ valYposIguales(int[],\ int,\ int)
+comment7.params=v\ x\ y
+comment7.target=boolean\ vecinas(java.lang.String[],\ java.lang.String,\ java.lang.String)
+comment7.text=\ Ejercicio4\:\ Busqueda\ de\ dos\ String\ en\ posiciones\ \r\n\ consecutivas\ de\ un\ array.\r\n\ \r\n\ \ Dise\u00F1ar\ un\ m\u00E9todo\ recursivo\ que,\ con\ el\ menor\ coste\ \r\n\ \ posible,compruebe\ si\ dos\ String\ x\ e\ y\ (tal\ que\ x\ es\r\n\ \ menor\ estricto\ que\ y)\ \r\n\ \ ocupan\ posiciones\ consecutivas\ en\ un\ array\ de\ String\ v,\ \r\n\ \ ordenado\ ascendentemente\ y\ sin\ elementos\ repetidos.\ \r\n
+comment8.params=v\ x\ y\ i\ j
+comment8.target=boolean\ vecinas(java.lang.String[],\ java.lang.String,\ java.lang.String,\ int,\ int)
+comment9.params=v
+comment9.target=int\ primerPar(int[])
+comment9.text=Ejercicio\ 8\:\ Buscar\ el\ primer\ elemento\ par\ del\ array\r\n\ Supuestamente\ los\ primeros\ son\ impares\ y\ el\ resto\r\n\ son\ pares,\ con\ lo\ que\ buscar\ la\ pos\ del\ 1\u00BA\ par\r\n
+numComments=10

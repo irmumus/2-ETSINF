@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Matricula
+comment1.params=n\ l
+comment1.target=Matricula(int,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getNumeros()
+comment3.params=
+comment3.target=java.lang.String\ getLetras()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=o
+comment5.target=boolean\ equals(java.lang.Object)
+comment6.params=
+comment6.target=int\ hashCode()
+numComments=7

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MergeSort
+comment0.text=\r\n\ class\ MergeSort.\r\n\ \r\n\ @author\ FTG\ \r\n\ @version\ 1.0\r\n
+comment1.params=a\ b
+comment1.target=java.lang.Comparable[]\ fusion(java.lang.Comparable[],\ java.lang.Comparable[])
+comment2.params=v\ i\ m\ j
+comment2.target=void\ fusionDyV(java.lang.Comparable[],\ int,\ int,\ int)
+comment2.text=Ejercicio\ 5
+comment3.params=v\ i\ j
+comment3.target=void\ mergeSort(java.lang.Comparable[],\ int,\ int)
+comment4.params=v
+comment4.target=void\ mergeSort(java.lang.Comparable[])
+numComments=5

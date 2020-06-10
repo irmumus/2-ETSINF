@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TestUnion
+comment1.params=l1\ l2
+comment1.target=java.lang.String\ unionPar(librerias.estructurasDeDatos.modelos.ListaConPI,\ librerias.estructurasDeDatos.modelos.ListaConPI)
+comment2.params=l1\ l2
+comment2.target=java.lang.String\ unionMap(librerias.estructurasDeDatos.modelos.ListaConPI,\ librerias.estructurasDeDatos.modelos.ListaConPI)
+numComments=3
