@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=LEGColaOrdenada
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ LEGColaOrdenada\ here.\r\n\ \r\n\ @author\ irmumus\r\n\ @version\ 2020\r\n
+comment1.params=element
+comment1.target=void\ encolar(java.lang.Comparable)
+numComments=2

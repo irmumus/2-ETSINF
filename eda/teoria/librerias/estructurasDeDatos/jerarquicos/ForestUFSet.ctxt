@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=ForestUFSet
+comment0.text=\ Clase\ que\ implementa\ el\ interfaz\ MFSet\ con\ coste\ amortizado\ pr\u00E1cticamente\ constante\r\n\ \ Cada\ subconjunto\ se\ guarda\ como\ un\ \u00E1rbol\:\r\n\ \ -\ Los\ nodos\ del\ \u00E1rbol\ son\ los\ elementos\ del\ subconjunto\:\ 0,\ 1,\ 2,\ ..,\ talla\r\n\ \ -\ En\ cada\ nodo\ guardamos\ una\ referencia\ al\ padre\r\n\ \ -\ El\ elemento\ ra\u00EDz\ del\ \u00E1rbol\ se\ usa\ para\ representar\ el\ subconjunto\r\n
+comment1.params=n
+comment1.target=ForestUFSet(int)
+comment1.text=\ Crea\ un\ UFSet\ de\ n\ clases\ (subconjuntos)\ de\ un\r\nelemento\ cuyos\ identificadores\ son\ 0,\ 1,\ \u2026,\ n-1
+comment2.params=i
+comment2.target=int\ find(int)
+comment2.text=\ Devuelve\ el\ identificador\ de\ la\ clase\ de\ \r\n\ \ equivalencia\ a\ la\ que\ pertenece\ el\ elemento\ i,\r\ntras\ realizar\ una\ compresion\ de\ caminos
+comment3.params=claseI\ claseJ
+comment3.target=void\ union(int,\ int)
+comment3.text=\ PRECONDICION\:\ claseI\ \!\=\ claseJ\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ AND\ claseI\ \=\ find(i)\ AND\ claseJ\ \=\ find(j)\r\n\ \ Une\ las\ clases\ de\ equivalencia\ con\ identificadores\r\nclaseI\ y\ claseJ\ mediante\ combinacion\ por\ rango
+comment4.params=
+comment4.target=int\ talla()
+comment5.params=
+comment5.target=java.lang.String\ toIdentificadores()
+comment6.params=a
+comment6.target=java.lang.String\ toClaseEq(int)
+comment7.params=a
+comment7.target=int\ cardinal(int)
+comment8.params=a\ b
+comment8.target=int\ cardinalUnion(int,\ int)
+numComments=9
