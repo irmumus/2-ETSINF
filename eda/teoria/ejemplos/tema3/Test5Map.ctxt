@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Test5Map
+comment0.text=\r\n\ Traduccion\ Bilingue,\ Palabra\ a\ Palabra,\ de\ un\ texto.\r\n\ Dos\ metodos\:\r\n\ \ 1.-\ cargarDiccionario\:\ \r\n\ \ \ \ \ \ del\ fichero\ de\ texto\ "diccioSpaEng.txt"\ ubicado\ en\ el\ proyecto\ eda\r\n\ \ 2.-\ traducir\:\ \r\n\ \ \ \ \ \ traduce\ la\ frase\ textoE\ palabra\ a\ palabra\ consultando\ el\ diccionario\ d.\ \r\n\ \ \ \ \ \ Cuando\ el\ diccionario\ d\ no\ contenga\ \r\n\ \ \ \ \ \ la\ traduccion\ para\ una\ palabra\ de\ textoE,\ \r\n\ \ \ \ \ \ el\ String\ resultado\ de\ traducir\ debe\ contener\ el\ literal\ "<error>"\ \ \r\n\ \ \ \ \ \ en\ lugar\ de\ su\ traduccion\r\n
+comment1.params=
+comment1.target=librerias.estructurasDeDatos.modelos.Map\ cargarDiccionario()
+comment2.params=textoE\ d
+comment2.target=java.lang.String\ traducir(java.lang.String,\ librerias.estructurasDeDatos.modelos.Map)
+numComments=3

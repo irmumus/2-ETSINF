@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ModuloAutorizacion
+comment1.params=n
+comment1.target=ModuloAutorizacion(int)
+comment2.params=nombre\ pwd
+comment2.target=java.util.Date\ fechaAcceso(java.lang.String,\ java.lang.String)
+comment3.params=nombre\ pwd
+comment3.target=void\ registrarUsuario(java.lang.String,\ java.lang.String)
+comment4.params=nombre\ pwd
+comment4.target=boolean\ estaAutorizado(java.lang.String,\ java.lang.String)
+numComments=5

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=LPISerie
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ LPISerie\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=LPISerie()
+comment2.params=
+comment2.target=java.lang.Comparable\ minimo()
+comment3.params=e
+comment3.target=void\ insertar(java.lang.Comparable)
+comment4.params=e
+comment4.target=void\ buscar(java.lang.Comparable)
+comment5.params=e
+comment5.target=boolean\ eliminar(java.lang.Comparable)
+comment6.params=e
+comment6.target=java.lang.Comparable\ siguiente(java.lang.Comparable)
+numComments=7

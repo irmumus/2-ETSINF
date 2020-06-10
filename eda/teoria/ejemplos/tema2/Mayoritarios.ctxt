@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Mayoritarios
+comment0.text=\r\n\ class\ Mayoritarios.\r\n\ \r\n\ @author\ FTG\ \r\n\ @version\ 2.0\r\n
+comment1.params=v
+comment1.target=int\ mayoritario1(int[])
+comment2.params=v\ k
+comment2.target=int\ mayoritario2(int[],\ int)
+comment3.params=v\ i\ j
+comment3.target=int\ mayoritario(int[],\ int,\ int)
+comment3.text=Ejercicio\ 7
+comment4.params=v
+comment4.target=int\ mayoritario(int[])
+comment5.params=v\ i\ j\ c
+comment5.target=int\ contar(int[],\ int,\ int,\ int)
+comment6.params=v\ i\ j
+comment6.target=java.lang.Object\ mayoritario(java.lang.Object[],\ int,\ int)
+comment7.params=v
+comment7.target=java.lang.Object\ mayoritario(java.lang.Object[])
+comment8.params=v\ i\ j\ c
+comment8.target=int\ contar(java.lang.Object[],\ int,\ int,\ java.lang.Object)
+numComments=9
