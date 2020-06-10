@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Voto
+comment1.params=v\ w
+comment1.target=Voto(int,\ int)
+comment2.params=
+comment2.target=int\ getVotante()
+comment3.params=
+comment3.target=int\ getVotado()
+comment4.params=candidato\ l
+comment4.target=int\ votosDe(int,\ librerias.estructurasDeDatos.modelos.ListaConPI)
+numComments=5

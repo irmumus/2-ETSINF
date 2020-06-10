@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Adyacente
+comment0.text=\ Clase\ Adyacente\:\ \r\n\ \ representa\ un\ vertice\ adyacente\ a\ otro\ de\ un\ grafo\ y\ el\ peso\ \r\n\ \ de\ la\ arista\ que\ los\ une;\ \r\n\ \ por\ ello,\ se\ puede\ considerar\ una\ representacion\r\n\ \ implicita\ de\ la\ arista\ que\ une\ dos\ vertices\ de\ un\ grafo.\r\n
+comment1.params=v\ peso
+comment1.target=Adyacente(int,\ double)
+comment1.text=\ Crea\ el\ vertice\ v\ adyacente\ a\ otro\ de\ un\ grafo\ \ \r\n\ \ y\ el\ peso\ de\ la\ arista\ que\ los\ une.\r\n\ \ @param\ v,\ Vertice\ adyacente\ a\ otro\r\n\ \ @param\ peso,\ de\ la\ arista\ que\ une\ a\ v\ y\ a\ otro\ del\ que\ es\ adyacente\ \r\n
+comment2.params=
+comment2.target=int\ getDestino()
+comment2.text=\ Devuelve\ el\ vertice\ adyacente\ a\ otro\ de\ un\ grafo,\ \r\n\ \ o\ el\ vertice\ destino\ de\ la\ arista\ que\ los\ une.\ \r\n\ \ @return\ int,\ Vertice\ adyacente\ a\ otro\ \r\n
+comment3.params=
+comment3.target=double\ getPeso()
+comment3.text=\ Devuelve\ el\ peso\ de\ la\ arista\ que\ une\ \r\n\ \ a\ un\ vertice\ de\ un\ grafo\ a\ un\ adyacente\ a\ este.\ \r\n\ \ @return\ double,\ \r\n\ \ Peso\ de\ la\ arista\ que\ une\ a\ un\ adyacente\ de\ un\ vertice\ de\ un\ grafo,\ \r\n\ \ 1\ si\ el\ grafo\ es\ No\ Ponderado\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\ Devuelve\ un\ String\ que\ representa\ a\ un\ adyacente\ \r\n\ \ a\ un\ vertice\ de\ un\ grafo\ y\ al\ peso\ de\ la\ arista\ que\ los\ une.\r\n\ \ @return\ String,\ que\ representa\ a\ un\ adyacente\r\n
+numComments=5

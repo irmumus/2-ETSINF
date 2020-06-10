@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Tramo
+comment1.params=p1\ p2\ f
+comment1.target=Tramo(int,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getPueblo1()
+comment3.params=
+comment3.target=int\ getPueblo2()
+comment4.params=
+comment4.target=java.lang.String\ getFecha()
+comment5.params=x\ y\ l
+comment5.target=java.lang.String\ sePuede(int,\ int,\ librerias.estructurasDeDatos.modelos.ListaConPI)
+numComments=6
