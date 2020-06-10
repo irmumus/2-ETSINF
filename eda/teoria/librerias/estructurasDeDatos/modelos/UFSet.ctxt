@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=UFSet
+comment0.text=\ Clase\ UFSet\:\ representa\ las\ clases\ -subconjuntos-\ que\ define\r\n\ \ una\ relaci\u00F3n\ de\ equivalencia\ en\ un\ conjunto\ de\ cardinal\ N\r\n\ \ (a)\ Los\ elementos\ del\ conjunto\ se\ representan\ mediante\ enteros\ \r\n\ \ \ \ \ \ en\ el\ intervalo\ [0,\ N-1],\ pues\ su\ tipo\ concreto\ \r\n\ \ \ \ \ \ NO\ interviene\ en\ la\ definici\u00F3n\ de\ las\ clases\r\n\ \ (b)\ Los\ elementos\ de\ una\ clase\ se\ representan\ mediante\ \r\n\ \ \ \ \ \ uno\ SOLO\ de\ sus\ miembros,\ cualquiera\ de\ ellos,\ \r\n\ \ \ \ \ \ pues\ todos\ son\ equivalentes\r\n\ \ (c)\ Las\ clases\ se\ definen\ din\u00E1micamente\ a\ partir\ de\ las\ N\ triviales,\r\n\ \ \ \ \ \ cada\ una\ formada\ por\ un\ elemento\ del\ conjunto\r\n
+comment1.params=i
+comment1.target=int\ find(int)
+comment1.text=\ Devuelve\ el\ identificador\ de\ la\ clase\ de\ equivalencia\r\n-subconjunto-\ al\ que\ pertenece\ el\ elemento\ i
+comment2.params=claseI\ claseJ
+comment2.target=void\ union(int,\ int)
+comment2.text=\ PRECONDICION\:\ claseI\ \!\=\ claseJ\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ AND\ claseI\ \=\ find(i)\ AND\ claseJ\ \=\ find(j)\r\n\ Une\ las\ clases\ de\ equivalencia\ \u2013subconjuntos-\r\ncon\ identificadores\ claseI\ y\ claseJ
+numComments=3
