@@ -33,15 +33,48 @@ public class LEGListaConPIPlus<E> extends LEGListaConPI<E>
     }
     
     public boolean eliminarUltimo(E e){
-        NodoLEG<E> aux = pri;
-        while(aux!=null){
-            aux = aux.siguiente;
+        NodoLEG<E> ultimo = null;
+        inicio();
+        while (!esFin()) {
+            if (recuperar().equals(e)) ultimo = ant;
+            siguiente();
         }
-        eliminar();
-        return true;
+        if (ultimo == null) return false;
+        else {
+            if (ultimo.siguiente == ult) ult = ultimo;
+            ultimo.siguiente = ultimo.siguiente.siguiente;
+            talla--;
+            return true;
+        }
+    }
+    
+    public boolean eliminarPrimero(E e) {
+        inicio();
+        while (!esFin()) {
+            if (recuperar().equals(e)) {
+                eliminar();
+                return true;
+            }
+            siguiente();
+        }
+        return false;
+     }
+    
+     public boolean eliminarTodos(E e) {
+        inicio();
+        boolean b = false;
+        while (!esFin()) {
+            if (recuperar().equals(e)) {
+                eliminar();
+                b = true;
+            }
+            else siguiente();
+        }
+        return b;
     }
     
     public void concatenar(ListaConPI<E> e){
+        this.fin();
         e.inicio();
         while(!e.esFin()){
             this.insertar(e.recuperar());
